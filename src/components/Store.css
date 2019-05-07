@@ -1,0 +1,29 @@
+.main-store{
+display: flex;
+flex-wrap: wrap;
+/* align-items: center; */
+justify-content: center;
+}
+
+.product-container{
+    /* display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+     border: 3px;
+     flex-wrap: wrap;
+    padding: 0 8px;
+    vertical-align: top;
+    line-height: 1.6em; */
+   width: 30%;
+   border: 2px solid black;
+   margin: 5px;
+   font-size: 15px
+    
+}
+
+/* background: url(../pics/home_ad_1.jpg);
+background-attachment: fixed;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+background-color: red */

@@ -1,0 +1,42 @@
+create table game(
+--     game_id serial primary key,
+--     title varchar(25) not null,
+--     Synopsis text,
+--     cover_art text,
+--     admin_id integer references admin(id)
+-- );
+-- insert into game(title, Synopsis, cover_art, admin_id)
+-- values
+-- ('Assassin Creed Odyssey','Action Adventure » Open-World', 'https://gamefaqs.akamaized.net/box/1/5/4/687154_front.jpg', 1),
+-- ('Persona 5','[Role-Playing » Japanese-Style]', 'https://gamefaqs.akamaized.net/box/3/2/0/607320_front.jpg', 1);
+-- create table anime(
+--     anime_id serial primary key,
+--     title varchar(25) not null,
+--     Synopsis text,
+--     cover_art text,
+--     admin_id integer references admin(id)
+-- );
+-- insert into anime(title, Synopsis, cover_art, admin_id)
+-- values
+-- ('ONE PIECE', 'Action, Adventure, Comedy, Super Power, Drama, Fantasy, Shounen', 'https://cdn.myanimelist.net/images/anime/1178/92469.jpg', 1),
+-- ('Overlord', 'Action, Adventure, Fantasy, Game, Magic, Supernatural', 'https://cdn.myanimelist.net/images/anime/1511/93473.jpg', 1);
+-- create table movie(
+--     movie_id serial primary key,
+--     title varchar(25) not null,
+--     Synopsis text,
+--     cover_art text,
+--     admin_id integer references admin(id)
+-- );insert into movie(title, Synopsis, cover_art, admin_id)
+-- values
+-- ('Venom', 'Action | Sci-Fi | Thriller', 'https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_UX182_CR0,0,182,268_AL_.jpg', 1),
+-- ('Deadpool 2', 'Action | Adventure | Comedy | Sci-Fi', 'https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY268_CR43,0,182,268_AL_.jpg', 1);
+-- create table tv(
+--     tv_id serial primary key,
+--     title varchar(25) not null,
+--     Synopsis text,
+--     cover_art text,
+--     admin_id integer references admin(id)
+-- );insert into tv(title, Synopsis, cover_art, admin_id)
+-- values
+-- ('Game of Thrones', 'Action | Adventure | Drama | Fantasy | Romance', 'https://m.media-amazon.com/images/M/MV5BMjA5NzA5NjMwNl5BMl5BanBnXkFtZTgwNjg2OTk2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg', 1),
+-- ('Rick and Morty', 'Animation | Adventure | Comedy | Sci-Fi', 'https://m.media-amazon.com/images/M/MV5BMjRiNDRhNGUtMzRkZi00MThlLTg0ZDMtNjc5YzFjYmFjMmM4XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY268_CR2,0,182,268_AL_.jpg', 1);
