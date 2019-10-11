@@ -14,6 +14,11 @@
   
   
 }
+
+.i-box span{
+  width: 100%;
+  text-align: left;
+}
 .Content {
   width: 230px;
   height: 750px;
