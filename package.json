@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "add": "^2.0.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcrypt": "^3.0.6",
     "bcryptjs": "^2.4.3",
     "dotenv": "^7.0.0",
